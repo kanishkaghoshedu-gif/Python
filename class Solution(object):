@@ -1,0 +1,7 @@
+class Solution(object):
+    def longestPalindrome(self, s):
+        l=[s[i:j] for j in range(i+1,len(s)) for i in range(len(s))]
+        return l
+
+obj=Solution()
+print(obj. longestPalindrome('abc')) 
